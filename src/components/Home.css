@@ -1,0 +1,158 @@
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 5rem;
+    position: relative;
+}
+
+
+.ProductItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.SearchData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    border: 4px solid black ;
+    padding: 10px;
+    position: relative;
+}
+
+
+.MenuItems{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.MenuItem{
+    background: rgb(197, 96, 13);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 7px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.MenuItem:hover{
+    background: teal;
+    transform: scale(1.1);
+}
+
+.active{
+    background: teal;
+    transform: scale(1.1);
+}
+.lackItems{
+    height: max-content;
+    width: 100px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 7.5px;
+    top: 70px;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    border: 5px solid red;
+    color: red;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+.SearchDiv{
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    
+}
+.SearchLogo{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.SearchInput{
+        width: 40%;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        padding: 5px;
+        outline: none;
+        border-radius: 20px;
+        box-shadow: 0px 5px 21px rgb(0 0 0 / 85%);
+        transition: ease-in-out;
+        margin-bottom: 4px;
+}
+.SearchInput:focus{
+    border: 3px solid black;
+}
+
+.SearchTitle{
+    font-size: large;
+    font-weight: bold;
+    border: 3px solid black;
+    width: max-content;
+    margin-inline: auto;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 20;
+}
+
+.SearchWarning{
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+
+.hide{
+    display: none;
+}
+
+.closeSearch{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 40px;
+    color: rgba(122, 18, 18, 0.589);
+    z-index: 20;
+}
+
+.lackItemsTitle{
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
+
+
+.lackItems{
+    margin-top: 30px;
+}
+
+.LackedItem{
+    margin-top: -10px;
+    border-bottom: 1px solid red;
+}
+

@@ -1,0 +1,58 @@
+
+.Gain{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 5px;
+    padding: 6px;
+    right: 0;
+    width: max-content;
+    height: 2em;
+    background-color: goldenrod;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.GainDiv{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1000;
+    right: 5px;
+    top: 5px;
+}
+
+.ShowGain,.HideGain,.ResetGain{
+    width: fit-content;
+    padding: 5px ;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    margin-left: 10px;
+}
+.ShowGain{
+    background: rgba(16, 192, 39, 0.7);
+}
+.HideGain{
+    background: rgba(160, 7, 7, 0.7);
+}
+.ResetGain{
+    background: rgba(24, 140, 185, 0.7);
+}
+.ShowGain:hover , .HideGain:hover,.ResetGain:hover{
+    transform: scale(1.1);
+    background: goldenrod;
+}
+.GainValue{
+    margin-left: 4px;
+}

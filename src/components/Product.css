@@ -1,0 +1,93 @@
+.Card{
+    height: max-content;
+    background: transparent;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 21px rgb(0 0 0 / 85%);
+    padding: 20px;
+    backdrop-filter: blur(15px);
+    border: 7px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+
+.Card:hover{
+    border: 7px solid rgba(8, 77, 117, 1);
+
+}
+
+.Card img{
+    height: 120px;
+    width: 150px;
+    border-radius:5px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
+.Card p{
+    font-weight: bold; 
+}
+
+.Card p.Name{
+    padding-bottom: 6px;
+    border: 2px solid rgba(252, 251, 251, 0.644) ;
+    background: rgb(184, 181, 181,0.1);
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.Card p.Quantity ,.Card p.QuantityPerCup{
+    border-bottom: 2px solid rgba(252, 251, 251, 0.644) ;
+    padding-bottom: 4px;
+}
+
+.Card .data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card .data input{
+    width: 150px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0px 5px 21px rgb(0 0 0 / 85%);
+    transition: ease-in-out;
+    margin-bottom: 4px;
+}
+
+.Card .data input:focus{
+    border: 3px solid black;
+}
+
+.Card .data button{
+    width: 90px;
+    padding: 5px ;
+    font-size: large;
+    font-weight: bold;
+    background: teal;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.Card .data button:hover{
+    transform: scale(1.1);
+    background: goldenrod;
+}
+
+
+.danger{
+    border: 7px solid black;
+    background: rgba(122, 6, 6, 0.897);
+}
+
+.Quantity,.QuantityPerCup,.Price,.data{
+    margin-top: -10px;
+
+}
