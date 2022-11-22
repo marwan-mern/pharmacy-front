@@ -46,6 +46,10 @@ span{
     margin-left: 10px;
 }
 
+.hide{
+    display: none;
+}
+
 
 .navItem a{
     text-decoration: none;
@@ -59,4 +63,32 @@ span{
 
 .navItem  svg{
     font-size: 1.2rem;
+}
+
+/* @media screen and (max-width:375px){
+    .navbar .logo{
+        color: red;
+    }
+} */
+
+@media screen and (max-width:1122px){
+    
+
+    .navItems{
+        flex-direction: column;
+        text-align: left;
+        background-color: white;
+        border: 2px solid gray;
+        width: 100%;
+        border-radius: 20px;
+
+    }
+    .navItem{
+        border: 0px solid black;
+        border-bottom: 1px solid black;
+        text-shadow: 0px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+        border-radius: 0px;
+        width: 80%;
+    }
 }

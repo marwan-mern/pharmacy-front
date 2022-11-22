@@ -73,3 +73,16 @@
     background: goldenrod;
 }
 
+@media screen and (max-width:1122px){
+    .dataAddedProduct{
+    width: 100%;
+    }
+    .storeContainerAddedProduct {
+    gap: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+}
+
+

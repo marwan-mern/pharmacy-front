@@ -56,3 +56,16 @@
 .GainValue{
     margin-left: 4px;
 }
+
+@media screen and (max-width:1122px){
+    .GainDiv{
+        right: -27px;
+        transform: translateX(-50%);
+    }
+    .Gain{
+        transform: translateX(-50%);
+        right: 20px;
+        bottom: 10%;
+    }
+
+}

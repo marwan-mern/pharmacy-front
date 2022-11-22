@@ -83,7 +83,7 @@
     height: max-content;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 13px;
 }
 .SearchLogo{
     font-size: 40px;
@@ -154,5 +154,14 @@
 .LackedItem{
     margin-top: -10px;
     border-bottom: 1px solid red;
+}
+
+@media screen and (max-width:1122px){
+    .lackItems{
+        margin-top: 212px;
+    }
+    .SearchDiv{
+        justify-content: left;
+    }
 }
 

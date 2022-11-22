@@ -121,3 +121,10 @@
     background: goldenrod;
 }
 
+@media screen and (max-width:1122px){
+    .ReportContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
